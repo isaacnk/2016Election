@@ -135,7 +135,7 @@ Note: Additional figures can be found inside the R Shiny Application
 
 ### Future Work 
 
-INSERT FUTURE WORK HERE
+For the project to be more successful, we would like to expand on our Factor Analysis to include a regression analysis of Hillary Clinton's share of the vote with each of the three components. This would allow us to make accurate assumptions about which type of outlier county Clinton does well in, and which types of counties Donald Trump does well in.
 
 ### Sources
 
@@ -145,3 +145,8 @@ https://www.kaggle.com/benhamner/2016-us-election/activity
 
 Election Data is sourced from: 
 MIT Election Data and Science Lab, 2018, "County Presidential Election Returns 2000-2016", https://doi.org/10.7910/DVN/VOQCHQ, Harvard Dataverse, V1, UNF:6:ZaxsDvp6RsFitno8ZYlK7w== [fileUNF]
+
+Statistics and PCA Help Provided By:
+* "Principal Component Analysis and Factor Analysis in R" by Ani Katchova (https://www.youtube.com/watch?v=Od8gfNOOS9o)
+* Interpreting the output from PCA (https://stats.stackexchange.com/questions/4093/interpreting-pca-scores)
+* "Understanding PCA with an Example" by Subhasree Chatterjee  (https://www.linkedin.com/pulse/understanding-pca-example-subhasree-chatterjee/)
