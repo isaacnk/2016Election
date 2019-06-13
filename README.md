@@ -108,11 +108,11 @@ Pages:
     * Project Overview 
     * Data Dictionary
     * Sources
-    <img src="INSERT SCREENSHOT LINK TO FINISHED PAGE" />
+    <img src="https://github.com/isaacnk/2016Election/blob/master/About.png />
     
   * Statistics:
     * INSERT INFO HERE
-    <img src="INSERT SCREENSHOT LINK TO FINISHED PAGE" />
+    <img src="https://github.com/isaacnk/2016Election/blob/master/Statistics.png" />
     
   * Tutorials:
     * Jupyter Notebook walkthroughs for the following topics: 
