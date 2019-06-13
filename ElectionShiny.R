@@ -140,9 +140,9 @@ ui <- dashboardPage(
                   br(),
                   a("Data Cleaning", href = "https://github.com/isaacnk/GIS3/blob/master/Election%20Data%20Cleaning%20and%20Merging.ipynb"),
                   br(),
-                  a("Regression", href = "https://github.com"), #####MODIFY W CORRECT URL
+                  a("Spatial Clustering & LISA Maps", href = "https://github.com/isaacnk/2016Election/blob/master/Notebooks/Spatial%20Cluster%20Analysis.ipynb"),
                   br(),
-                  a("Factor Analysis", href = "https://github.com") ###### DITTO
+                  a("Factor Analysis in R", href = "https://github.com/isaacnk/2016Election/blob/master/Notebooks/Factor%20Analysis.ipynb")
                 )
                 
                 
