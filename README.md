@@ -129,9 +129,23 @@ Pages:
 
 ### Figures
 
-INSERT FIGURE IMAGES WITH BRIEF EXPLANATIONS
+#### LISA Map of County Clusters
+<img src="https://github.com/isaacnk/2016Election/blob/master/Hillary_Cluster.png?raw=true" />
+This map shows where there are clusters of major support and clusters of little support for Hillary Clinton. Notice the outlying 'high-low' and 'low-high' clusters throughout the map.
 
-Note: Additional figures can be found inside the R Shiny Application 
+#### Correlation Matrix between Percent of Vote for Hillary Clinton and selected demographic variables
+<img src="https://github.com/isaacnk/2016Election/blob/master/Correlations%20Figure.png?raw=true" />
+This shows the R output of a correlation matrix showing some variables with high correlation between percent of vote and demographic variables.
+
+#### Kaiser-Meyer-Olkin (KMO) Test for Sampling Accuracy
+<img src="https://github.com/isaacnk/2016Election/blob/master/KMO%20Figure.png?raw=true" />
+Describes the result from KMO test. See Jupyter Notebook Tutorial for more information.
+
+#### Scree Plot
+<img src="https://github.com/isaacnk/2016Election/blob/master/Scree%20Plot.png" />
+This plot shows how much variance each principal component is responsible for. Notice how the first three components are responsable for ~80% of the variance in the data.
+
+Note: Additional figures can be found inside the R Shiny Application and in the Jupyter Notebook Tutorials.
 
 ### Future Work 
 
