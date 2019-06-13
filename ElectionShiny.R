@@ -127,6 +127,23 @@ ui <- dashboardPage(
       #STATISTICS PAGE LAYOUT
       tabItem(tabName = "stats",
               h1("Statistics")),
+                fluidRow(
+              box(width = 12,
+                  h2("Overview"),
+                  p("The goal of our project was to better understand why some counties voted for a different candidate during the 2016 U.S. Presidential Election then their neighbors. This is obviously a meaty question with many facets which become relevant every elefction cycle, so we decided to takle a more prescise question; What are the major characteristics of outlying counties, and how can they be used to analyze voting outcomes")),
+              br(),
+              box(width = 12,
+                  h2("Finding Outlying Counties"),
+                  p("We considered outlying counties to be those that appear as outliers after applying a Local Moran's I analysis to our dataset and plotting the results."),
+                  p("We used a workflow in R and GeoDa to clean our data and run the analysis. In GeoDa, we created a Queen contiguity spatial weight matrix for all counties in all fifty states. Then, we calculated the Local Moran's I using the percent of voters who voted for Hillary Clinton as our variable of study. Using the percent voted for Donald Trump yields about the opposite result, but with some minor differences due to the existence of Third-Party candidates who gain a small percentage of the vote."),
+                  p("In total, we found that there were approximately 70 counties that could be considered as outlying counties when it came to voting to Hillary Clinton. These counties were dispersed pretty well across the U.S., suggesting that it is not a regional or simply local phenomenon. Using this data, we continued our statistical journey by implementing Factor Analysis."),
+              ), 
+              br(),
+              box(width = 12,
+                  h2("Factor Analysis using Principal Component Analysis (PCA)"),
+                  p("Running a PCA helped us better understand which characteristics define the ~70 outlying counties by reducing the number of variables (or 'dimensions') so we can interpret overall trends. At the end of the analysis, we had a breakdown of how each demographic variable contributed to more general components which are themselves uncorrelated."),
+                  p("The first step to implementing a PCA analysis is to verify that out data is actually suitable for this type of analysis. Even though we had around 50 variables, we needed to make sure that many of these variables were intercorrelated so that ")
+              )),
       
       #TUTORIALS PAGE LAYOUT
       tabItem(tabName = "tutorials",
