@@ -6,8 +6,11 @@ University of Chicago
 
 
 ### Overview
-The 2016 United States Election was among the most polarizing in recent memory. Its results were completely unexpected, taking pollsters and career politicos by suprise. In the time since, analysts have struggled to answer the basic question: what happened? Why were the polls so wrong and what can we learn from the results? This project uses geocomputational techniques to begin answering that question. Through a comprehensive yet easy-to-use R Shiny Application with related Jupyter Notebook tutorials, it explores the role of "outlier" counties, defined as counties falling into the low-high or high-low categorization of a LISA Map, in election data. 
+The 2016 United States Election was among the most polarizing in recent memory. Its results were completely unexpected, taking pollsters and career politicos by suprise. In the time since, analysts have struggled to answer the basic question: what happened? Why were the polls so wrong and what can we learn from the results? This project uses geocomputational techniques to begin answering that question. 
 
+Through a comprehensive yet easy-to-use R Shiny Application with related Jupyter Notebook tutorials, it explores the role of "outlier" counties, defined as counties falling into the low-high or high-low categorization of a LISA Map, in election data. It looks as trends that distinguish these counties in terms of demographics and 
+
+A guiding theme of this project is data accessibility. The data tells more stories than two people will be able to tell in one application or through a few tutorials. That is why the R Shiny Application has functionality geared towards the user exploring the data for him/herself. They can view county-level trends in thousands of variable combinations across all 50 states and the District of Columbia. Moreover, the documented tutorials and accessibility of the code (all available on this repo and linked in the application) instruct those unfamiliar with the geocomputational techniques in nearly all of the steps needed to replicate and expand on our work. 
 
 ### Goals and Objectives
 
@@ -120,12 +123,15 @@ Pages:
     
   * Downloads:
     * Download county demographics/results shapefile used to generate the maps on the Home page as a zipped folder
-    * Download the 
+    * Download the Jupyter Notebook Tutorials
     * Download the source code to the R Shiny Application itself
     <img src="https://github.com/isaacnk/2016Election/blob/master/Downloads.png" />
 
+### Figures
 
-Note: Additional figures can be found inside the R Shiny Application
+INSERT FIGURE IMAGES WITH BRIEF EXPLANATIONS
+
+Note: Additional figures can be found inside the R Shiny Application 
 
 ### Future Work 
 
