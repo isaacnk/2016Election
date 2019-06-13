@@ -131,7 +131,7 @@ ui <- dashboardPage(
             fluidRow(
               box(width = 12,
                   h2("Overview"),
-                  p("The goal of our project was to better understand why some counties voted for a different candidate during the 2016 U.S. Presidential Election then their neighbors. This is obviously a meaty question with many facets which become relevant every elefction cycle, so we decided to takle a more prescise question; What are the major characteristics of outlying counties, and how can they be used to analyze voting outcomes")
+                  p("The goal of our project was to better understand why some counties voted for a different candidate during the 2016 U.S. Presidential Election than their neighbors. This is obviously a meaty question with many facets which become relevant every elefction cycle, so we decided to takle a more prescise question; What are the major characteristics of outlying counties, and how can they be used to analyze voting outcomes")
 
                   ),
               br(),
