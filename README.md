@@ -108,7 +108,7 @@ Pages:
     * Project Overview 
     * Data Dictionary
     * Sources
-    <img src="https://github.com/isaacnk/2016Election/blob/master/About.png />
+    <img src="https://github.com/isaacnk/2016Election/blob/master/About.png" />
     
   * Statistics:
     * INSERT INFO HERE
