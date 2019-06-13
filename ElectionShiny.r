@@ -254,9 +254,6 @@ ui <- dashboardPage(
                   br(),
                   p("Note: Explanation of variable names can be found in the 'About' Tab"),
                   br(),
-                  h4("Click to Download the Data Cleaning Tutorial:"),
-                  downloadButton(outputId = "cleantutdwn", label = "Download"),
-                  br(),
                   br(),
                   h4("Click to Download the Source Code for this Application"),
                   downloadButton(outputId = "shinydwn", label = "Download"))
@@ -416,15 +413,6 @@ server <- function(input, output) {
         file.remove(zip_file, shp_files)
       }
     )
-  
-  # DOWNLOAD R SCRIPT FOR DATA CLEANING TUTORIAL
-  output$cleantutdwn <- downloadHandler(
-    filename = function() { 
-      paste("DataCleaningScript", ".R", sep="")
-    },
-    content = function(file) {
-      file.copy("DataCleaning.R", file)
-    })
   
   
   # DOWNLOAD R CODE FOR THIS APP (SO META I KNOW)
