@@ -161,6 +161,6 @@ Election Data is sourced from:
 MIT Election Data and Science Lab, 2018, "County Presidential Election Returns 2000-2016", https://doi.org/10.7910/DVN/VOQCHQ, Harvard Dataverse, V1, UNF:6:ZaxsDvp6RsFitno8ZYlK7w== [fileUNF]
 
 Statistics and PCA Help Provided By:
-* "Principal Component Analysis and Factor Analysis in R" by Ani Katchova (https://www.youtube.com/watch?v=Od8gfNOOS9o)
+* *Principal Component Analysis and Factor Analysis in R* by Ani Katchova (https://www.youtube.com/watch?v=Od8gfNOOS9o)
 * Interpreting the output from PCA (https://stats.stackexchange.com/questions/4093/interpreting-pca-scores)
-* "Understanding PCA with an Example" by Subhasree Chatterjee  (https://www.linkedin.com/pulse/understanding-pca-example-subhasree-chatterjee/)
+* *Understanding PCA with an Example* by Subhasree Chatterjee  (https://www.linkedin.com/pulse/understanding-pca-example-subhasree-chatterjee/)
